@@ -1,0 +1,127 @@
+body{
+    width: 1440px;
+    height: 900px;
+    background-color: #0d192c;
+}
+.container{
+    height: 596px;
+    width: 350px;
+    background-color: #15263f;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 152px 545px 152px 545px ;
+}
+.mainimage{
+    padding: 24px;
+    width: 302px;
+    height: 302px;  
+}
+.mainimage img{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+/*
+.eye{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+ .eye img{
+    background-color: #00fff8;
+    height: 30px;
+    width: 44px;
+    left: 698px;
+    top: 312px;
+
+*/
+.container h2{
+    font-family: 'Outfit',sans-serif;
+    height: 28px;
+    width: 302px;
+    color: white;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 24px 16px 24px;
+    text-align: left;
+}
+.text p{
+    margin: 0;
+    padding: 0 24px 24px 24px;
+    color: #8bacd9;
+    height: 52px;
+    width: 302px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+.icons{
+    margin: 0;
+    padding: 0 24px 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ethereum {
+    color: #00fff8;
+    font-family: 'Outfit',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+.clock{
+    color: #8bacd9;
+    font-family: 'Outfit',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    height: 20px;
+    left: 227px;
+}
+hr{
+    color: #15263f;
+    height: 1px;
+    width: 302px;
+    margin: 0 24px 16px 24px;
+}
+.creator{
+    padding-left: 24px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+.creator img{
+    height: 33px;
+    width: 33px;
+    border-radius: 50px;
+    top: 531px;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+.creator p{
+    margin: 0;
+    padding-left: 16px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #8bacd9;
+}
+span{
+    color: white;
+    height: 20px;
+    width: 93px;
+    font-family: 'Outfit'sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+.creator,
+h2,
+span{ cursor: pointer;
+}
+h2:hover, span:hover{
+    color:  hsl(178, 100%, 50%) ;
+}
