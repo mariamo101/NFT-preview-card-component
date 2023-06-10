@@ -21,7 +21,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 <img width="765" alt="Screenshot 2023-03-21 at 01 24 24" src="https://user-images.githubusercontent.com/117212859/226493658-a3417da9-fcd6-4b4e-bdb7-742168358dbc.png">
 
 ### Links
-- Live Site URL: (https://nft-qr.netlify.app/)
+- Live Site URL:[Add live site URL here](https://nft-qr.netlify.app/)
 
 ## My process
 
