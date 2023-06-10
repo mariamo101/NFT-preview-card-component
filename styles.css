@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0D192C;
+}
+.container{
+    height: 596px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    border-radius: 15px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px 0px #00000018;
+    
+}
+.box{
+    margin: 24px;
+    width: 302px;
+    height: 302px;
+    background-color:#00FFF8;
+    border-radius: 8px;  
+    position: relative; 
+    cursor: pointer;
+}
+.cube{
+    width: 100%;
+    border-radius: 8px;
+}
+.view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display: none;
+}
+.box:hover .cube{
+    opacity: 0.5;
+}
+.box:hover .view{
+    display: block;
+}
+.container h2, .text p,.icons{
+    margin: 24px;
+}
+.container h2{
+    font-family:'Outfit',sans-serif;
+    height: 28px;
+    width: 302px;
+    color: white;
+    line-height: 28px;
+    text-align: left;
+}
+.text p{
+    color: #8bacd9;
+    height: 52px;
+    width: 302px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}
+.icons{
+    margin: 0;
+    padding: 0 24px 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ethereum {
+    color: #00fff8;
+    font-family: 'Outfit',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+.clock{
+    color: #8bacd9;
+    font-family: 'Outfit',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    height: 20px;
+    left: 227px;
+}
+hr{
+    color: #15263f;
+    height: 1px;
+    width: 302px;
+    margin: 0 24px 16px 24px;
+}
+.creator{
+    padding-left: 24px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+.creator img{
+    height: 33px;
+    width: 33px;
+    border-radius: 50px;
+    top: 531px;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+.creator p{
+    margin: 0;
+    padding-left: 16px;
+    font-family: 'Outfit',sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #8bacd9;
+}
+span{
+    color: white;
+    height: 20px;
+    width: 93px;
+    font-family: 'Outfit'sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+.creator,
+h2,
+span{ cursor: pointer;
+}
+h2:hover, span:hover{
+    color:  hsl(178, 100%, 50%) ;
+}
